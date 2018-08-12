@@ -241,3 +241,15 @@ main .about-us-container section {
 main .about-us-container img {
   width: 50%;
 }
+main .clients-container h2 {
+  text-align: center;
+}
+main .clients-container section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .clients-container section img {
+  width: 40%;
+  height: 40%;
+}
