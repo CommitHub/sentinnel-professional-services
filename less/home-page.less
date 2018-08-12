@@ -48,4 +48,32 @@ main {
       .generalPadding();
     }
   }
+
+  .about-us-container {
+    .generalMargin();
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      margin: 30px;
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: @secondary-background;
+      color: white;
+      width: 50%;
+      padding: 50px 0;
+    }
+
+    img {
+      width: 50%;
+    }
+  }
 }
