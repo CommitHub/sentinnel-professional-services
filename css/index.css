@@ -238,6 +238,7 @@ main .service-container p {
 }
 main .about-us-container {
   margin: 30px 0;
+  height: 700px;
   display: flex;
   justify-content: space-between;
 }
