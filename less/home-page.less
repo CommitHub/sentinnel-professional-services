@@ -13,6 +13,10 @@ main {
     img {
       width: 40%;
       height: 50%;
+
+      @media @phone {
+        width: 90%;
+      }
     }
   }
 
@@ -63,13 +67,17 @@ main {
         .card-container {
           padding: 2px 16px;
         }
+
+        @media @phone {
+          width: 100%;
+        }
       }
   
       h3, p {
         .generalPadding();
       }
     }
-    
+
   }
 
   
@@ -79,6 +87,7 @@ main {
     .generalContainerWidth();
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap; 
 
     h2 {
       text-align: center;
@@ -96,16 +105,28 @@ main {
       color: white;
       width: 50%;
       padding: 50px 0;
+
+      @media @phone {
+        width: 100%;
+      }
     }
 
     img {
       width: 50%;
+
+      @media @phone {
+        width: 100%;
+      }
     }
   }
 
   #clients-container {
     h2 {
       text-align: center;
+
+      @media @phone {
+        .generalPadding();
+      }
     }
 
     section {
@@ -117,6 +138,11 @@ main {
       section {
         width: 30%;
         height: 400px;
+        
+        @media @phone {
+          width: 90%;
+          height: 200px;
+        }
       }
 
       img {

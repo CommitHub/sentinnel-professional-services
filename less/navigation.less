@@ -7,6 +7,10 @@ header {
   section {
     width: 12%;
     height: 150px;
+
+    @media @phone {
+      width: 50%;
+    }
   }
 
   img {
@@ -22,8 +26,10 @@ header {
     padding: 5px 0 20px 0;
   }
 
-  @media @tablet {
-    a {
+  a {
+    padding-top: 5px;
+
+    @media @tablet {
       padding-top: 10px;
     }
   }
