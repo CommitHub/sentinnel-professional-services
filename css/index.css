@@ -150,18 +150,23 @@ p {
 }
 a {
   font-size: 2rem;
-  color: white;
+  color: black;
   text-decoration: none;
-  padding: 0 5px;
+  padding: 0 50px;
 }
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ff5964;
-  color: white;
+  background-color: #ffe74c;
 }
-header h1 {
+header section {
+  width: 12%;
+  height: 150px;
+}
+header img {
+  width: 100%;
+  height: 100%;
   padding: 30px 0;
 }
 header nav {
@@ -169,9 +174,6 @@ header nav {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 5px 0 20px 0;
-}
-header nav a {
-  margin: 0 50px;
 }
 footer {
   background-color: #6bf178;
@@ -191,17 +193,23 @@ footer section {
 footer .copyright {
   text-align: center;
 }
-main {
-  padding: 30px 0;
-}
 main .jumbotron {
-  display: block;
-  width: 90%;
-  max-width: 880px;
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/contactanos.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 600px;
+}
+main .jumbotron img {
+  width: 40%;
+  height: 50%;
 }
 main .mission-container {
-  margin: 30px 0;
+  padding: 30px 0;
   background-color: #35a7ff;
   color: white;
 }
@@ -258,7 +266,7 @@ main .about-us-container section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #ffe74c;
+  background-color: #ff5964;
   color: white;
   width: 50%;
   padding: 50px 0;

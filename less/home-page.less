@@ -1,12 +1,23 @@
 main {
-  .generalPadding();
-
   .jumbotron {
-    .containerWidthCentered();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/contactanos.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px; 
+
+    img {
+      width: 40%;
+      height: 50%;
+    }
   }
 
   .mission-container {
-    .generalMargin();
+    .generalPadding();
     background-color: @background;
     color: white;
 
