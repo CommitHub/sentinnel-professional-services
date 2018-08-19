@@ -244,29 +244,35 @@ main #mission-container section {
   padding: 50px 0;
 }
 main #service-container {
+  padding: 30px 0;
+}
+main #service-container h2 {
+  text-align: center;
+}
+main #service-container .card-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-main #service-container img {
+main #service-container .card-container img {
   width: 100%;
   height: 350px;
 }
-main #service-container .card {
+main #service-container .card-container .card {
   margin: 20px;
   width: 30%;
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
-main #service-container .card:hover {
+main #service-container .card-container .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-main #service-container .card .card-container {
+main #service-container .card-container .card .card-container {
   padding: 2px 16px;
 }
-main #service-container h3,
-main #service-container p {
+main #service-container .card-container h3,
+main #service-container .card-container p {
   padding: 30px 0;
 }
 main #about-us-container {
