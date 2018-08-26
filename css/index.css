@@ -280,7 +280,7 @@ main #service-container .card-container .card:hover {
 main #service-container .card-container .card .card-container {
   padding: 2px 16px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   main #service-container .card-container .card {
     width: 100%;
   }
